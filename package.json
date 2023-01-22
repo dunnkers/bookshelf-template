@@ -1,10 +1,9 @@
 {
-  "name": "bookshelf",
+  "name": "bookshelf-template",
   "version": "1.0.0",
   "author": "dunnkers",
   "dependencies": {
-    "handlebars": "^4.7.7",
-    "node-fetch": "^3.3.0"
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
@@ -12,9 +11,9 @@
   "scripts": {
     "build": "rm -rf build && cp -R public build && node compile-website.mjs",
     "serve": "npx -y http-server build",
-    "predeploy": "PUBLIC_URL=https://dunnkers.com/bookshelf yarn build",
+    "predeploy": "PUBLIC_URL=https://dunnkers.com/bookshelf-template yarn build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://dunnkers.com/bookshelf",
+  "homepage": "https://dunnkers.com/bookshelf-template",
   "license": "MIT"
 }

@@ -19,24 +19,6 @@
   text-decoration: none;
 }
 
-/* App icons */
-.App-icons {
-  text-align: right;
-  float: right;
-  margin-top: 23px;
-}
-
-.App-icons .GitHub-icon {
-  width: 22px;
-  margin-right: 7px;
-  margin-left: 1px;
-  opacity: 0.75;
-}
-
-.App-icons .GitHub-icon:hover {
-  opacity: 1.0;
-}
-
 /* Footer */
 footer {
   color: #6c757d;
